@@ -260,7 +260,7 @@ ul.customers-section {
 	padding: 6px 22px 6px 22px;
 	cursor: pointer;
 }
-.portfolio-button-list {
+.portfolio-main-section .portfolio-button-list {
 	display: flex;
 	justify-content: center;
 	padding-left: 0;
