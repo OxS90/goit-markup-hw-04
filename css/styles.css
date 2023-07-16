@@ -25,9 +25,12 @@ body {
 .our-assets,
 .our-job-list,
 .our-team,
-.customers-section ul,
+.section ul.customers-section,
 .portfolio-main-section ul {
 	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 header {
 	border: 1px solid #eee;
@@ -173,10 +176,10 @@ header {
 }
 .our-assets,
 .our-job-list,
-.our-team {
+.our-team,
+ul.customers-section {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 0;
 	gap: 30px;
 }
 .our-assets {
@@ -344,10 +347,6 @@ header {
 .icon svg:hover,
 .icon svg:focus {
 	fill: var(--text-dark-bg-color);
-}
-.customers-section {
-	display: flex;
-	gap: 30px;
 }
 .icon-logo-card {
 	width: 170px;
